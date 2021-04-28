@@ -1,0 +1,191 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>Coluga Shop</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cheatsheet/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+<link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="cheatsheet.css" rel="stylesheet">
+  </head>
+  <body class="bg-light"></body>
+
+<header class="bd-header bg-dark py-3 d-flex align-items-stretch border-bottom border-dark">
+  <div class="container-fluid d-flex align-items-center">
+    <h1 class="d-flex align-items-center fs-4 text-white mb-0">
+      <img src="https://im0-tub-ru.yandex.net/i?id=602242487942a0bbc87098fe2b1cd986&n=13" width="38" height="30" class="me-3" alt="Bootstrap">
+      Coluga Shop -- Первый деревенский интерент-магазин
+    </h1>
+  </div>
+</header>
+<div style="height:70%">
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://avatars.mds.yandex.net/get-zen_doc/112656/pub_5e333e1152d3287a8c81eebd_5e333eaeebb18a27f50408c6/scale_1200" height="735" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Лучший арсенал</h5>
+        <p> Наш магазин имеет огромный выбор товаров</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://avatars.mds.yandex.net/get-zen_doc/1590219/pub_5decac6592414d00afe52345_5decad2c16ef9000ad35028e/scale_1200" height="735" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Профессиональная администрация</h5>
+        <p>Хотя бы могут включить компьютер...</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ucrazy.ru/files/pics/2015.01/derevkrasotpost5.jpg" height="735" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Качественные услуги и матерьялы</h5>
+        <p>Самая проверенная(мною) продукция</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+  <section id="content">
+  </section>
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Хиты продаж</h1>
+        <p class="lead text-muted">Мы готовы представить вам выгодные наборы от малых до огроменных.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://pbs.twimg.com/media/DEIFtURWAAAvhfl.jpg">
+
+            <div class="card-body">
+              <p class="card-text">В свободной продаже есть обычные камазы. Но всем они наскучели. Они катаются повсюду. А как насчёт гоночного камаза??</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><p><a href="/articles/{{ loop.index }}">К товару</a></p></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://ayurvedika.ru/wp-content/uploads/2011/08/meat.jpg">
+            <div class="card-body">
+              <p class="card-text">Мясной набор "Три богатыря". Комплекс из трёх вырезок говяжего мяса, а именно: стэйк рибай, вырезка из толстого края, денври стэйк</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary"><p><a href="/articles/{{ loop.index }}">К товару</a></p></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://xoroshiy.ru/uploads/posts/2019-09/o-roste-cen-na-molochnuyu-produkciyu-predupredili-rossiyan-nazvana-prichina_1.jpg">
+
+          <div class="card-body" </div>
+            <p class="card-text">Набор "Молочный пир". Отборочное молоко и профиссиональное оборудование. Мы гарантируем приятный привкус сыра, а также прохладное молоко</p>
+            <div class="d-flex justify-content-between align-items-center">
+              <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-secondary"><p><a href="/articles/{{ loop.index }}">К товару</a></p></button>
+              </div>
+        </div>
+        </div>
+          </div>
+  </div>
+        <div class="bd-example">
+        <p>Наш магазин не только хорошие товары, но и прекрасная атмосфера любимой деревни.</p>
+        <p><strong>Не одному же рассол поедать)</strong></p>
+        </div>
+
+        <div class="bd-example">
+        <blockquote class="blockquote">
+          <p>Мокрое белье, замерзшие ресницы, из носа течет, в ботинках снег, запотевшие очки… и пар над горячим шоколадом.</p>
+          <footer class="blockquote-footer">Деревенский мудрец Василий<cite title="Source Title"></cite></footer>
+        </blockquote>
+        </div>
+
+        <div class="bd-example">
+        <ul class="list-unstyled">
+          <li>This is a list.</li>
+          <li>It appears completely unstyled.</li>
+          <li>Structurally, it's still a list.</li>
+          <li>However, this style only applies to immediate child elements.</li>
+          <li>Nested lists:
+            <ul>
+              <li>are unaffected by this style</li>
+              <li>will still show a bullet</li>
+              <li>and have appropriate left margin</li>
+            </ul>
+          </li>
+          <li>This may still come in handy in some situations.</li>
+        </ul>
+      </div>
+    </article>
+    <body class="my-3" id="images">
+      <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+        <h5>Да при будет с вами силушка богатырская! </h5>
+      </div>
+
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>
